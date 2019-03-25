@@ -24,10 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        logo = findViewById(R.id.imageView5);
-        Animation animacion = AnimationUtils.loadAnimation(this,R.anim.animacion_logo);
-        logo.startAnimation(animacion);
-
 
         tvAbachitos = findViewById(R.id.tex1);
         Animation animacionText = AnimationUtils.loadAnimation(this, R.anim.animacion_iz_derc);
